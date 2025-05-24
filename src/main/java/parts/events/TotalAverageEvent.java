@@ -2,7 +2,6 @@ package parts.events;
 
 import javafx.event.Event;
 import javafx.event.EventType;
-import parts.Entry;
 
 import java.io.Serializable;
 
