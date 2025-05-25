@@ -9,6 +9,12 @@ import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 import parts.events.EntryEvent;
 
+/**
+ * Class FXInputForm
+ * erstellt ein GridPane, in welchem mithilfe mehrerer
+ * TextFields und Labels und einem Button die Werte eingegeben werden können.
+ * Entsprechend der Aufgabe wurden noch keine Sicherheitsmaßnahmen herangezogen.
+ */
 public class FXInputForm extends VBox {
 
     private final GridPane grid;

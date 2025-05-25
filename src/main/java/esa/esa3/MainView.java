@@ -13,6 +13,11 @@ import parts.events.TotalAverageEvent;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Class MainView
+ *
+ * Bietet die Möglichkeit, die GUI modular zu erstellen.
+ */
 public class MainView {
     private final Stage stage;
     private BorderPane root;

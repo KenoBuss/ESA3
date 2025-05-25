@@ -8,6 +8,12 @@ import javafx.scene.layout.VBox;
 import javafx.scene.control.cell.PropertyValueFactory;
 import java.time.LocalDate;
 
+/**
+ * Class FXTable
+ * erstellt eine TableView mit den Spalten: Datum, Tachostand, Einheit der Strecke, Tank Menge, Einheit des Kraftstoffs, Preis, Einheit des Preises
+ *
+ * Bietet die Möglichkeit der TableView einträge hinzuzufügen.
+ */
 public class FXTable extends VBox {
 
     private final TableView<Entry> table;

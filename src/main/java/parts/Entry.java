@@ -2,6 +2,12 @@ package parts;
 
 import java.time.LocalDate;
 
+/**
+ * Class Entry
+ *
+ * Stellt eine Klasse eines Basiseintrags dar.
+ * Stellt Funktionen zur Umrechnung von Werten in verschiedene Einheiten bereit.
+ */
 public class Entry {
     public enum unitOfFuel {
         Liter,
@@ -139,8 +145,6 @@ public class Entry {
     public double getCostInDollars(){
         return this.costInDollars;
     }
-
-
 
     private void setDistanceInMiles(long kilometers) {
         this.distanceInMiles = kilometers / EXCHANGE_RATE_FOR_KILOMETER_TO_MILE;

@@ -5,6 +5,11 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 import javafx.stage.Window;
 
+/**
+ * Class FXMenu
+ * erstellt ein Menü, über welches das Programm beendet werden kann
+ * und die gewünschten Einheiten selektiert werden können.
+ */
 public class FXMenu extends HBox {
 
     Menu optionMenu;

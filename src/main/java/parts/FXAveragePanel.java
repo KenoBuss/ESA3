@@ -13,6 +13,14 @@ import parts.events.TotalAverageEvent;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
+/**
+ * Class FXAveragePanel
+ *
+ * Erstellt eine TextArea, in welcher die Durchschnittswerte angezeigt werden.
+ * (Gesamt Durchschnitt, so wie Durchschnitt letzten beiden Tankfüllungen)
+ *
+ * Die Durchschnittswerte werden entsprechend des gewünschten Intervalls hier berechnet.
+ */
 public class FXAveragePanel extends VBox {
 
     private final TextArea textArea;
